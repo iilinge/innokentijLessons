@@ -11,6 +11,8 @@
 2) добавляем ссылку на git.exe в IDEA для использования интеграции с гитом https://www.jetbrains.com/help/idea/using-git-integration.html# (секция before you start)
 ## Регистрация в Github
 1) Регистрируемся на https://github.com/
-2) Создаем Fork проекта ????
-3) Cоздаем со своего форка проект в IDEA (Checkout from VCS)
-4) 
+2) Создаем Fork проекта https://github.com/DmitryNuzhdin/innokentijLessons
+3) Cоздаем со своего форка проект в IDEA
+- Заходим на страницу своего форка
+- Нажимаем Clone or download и копируем ссылку
+- Создаем новый проет, выбрав Project from VCS -> git где URL используем скопированную ссылку
