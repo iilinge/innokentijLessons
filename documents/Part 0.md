@@ -1,4 +1,4 @@
-#Часть 0
+# Часть 0
 Подготовка и настройка 
 ## Установка Intellij IDEA
 1) Качаем и устанавливаем с офф сайта, Community Edition https://www.jetbrains.com/idea/download/#section=windows 
