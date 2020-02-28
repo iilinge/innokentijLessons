@@ -1,7 +1,14 @@
 package tasks.lesson2;
 
 public class PowerOfThree {
-    public static boolean powerOfThree(int a){
+
+    public static void main(String[] arg) {
+
+        System.out.println(powerOfThree(0));
+    }
+
+
+    public static boolean powerOfThree(int a) {
         /*
         метод должен вернуть ответ - является -ли заданое число степенью тройки
 
@@ -18,6 +25,24 @@ public class PowerOfThree {
         - переменную которая обявлена параметром метода (в нашем случае а) мы можем изменять внутри метода
 
          */
-        return false;
+
+        while (true) {
+            if (a == 1) {
+                return true;
+            } else if ( a==0 ) {
+                System.out.println("замкнутый цикл с нулем");
+                return false;
+            }
+
+            else {
+                if (a % 3 == 0) {
+                    a = a / 3;
+                } else {
+                    System.out.print(a);
+                    return false;
+                }
+            }
+        }
     }
 }
+

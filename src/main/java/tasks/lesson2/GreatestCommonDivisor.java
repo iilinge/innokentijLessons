@@ -14,6 +14,27 @@ public class GreatestCommonDivisor {
 
          */
 
-        return 0;
+        int minab = Math.min(a, b);
+        int maxab = Math.max(a, b);
+
+        int envResult = 1;
+        System.out.println("Наименьшее:" + minab);
+        System.out.println("Деление большего на меньшее:" + maxab/minab);
+
+        for (int j = minab; j >= 2; j-- ) {
+
+         if ((a%j==0) & (b%j==0)) {
+            envResult = j;
+             break;
+         }
+        }
+
+        System.out.print("Наибольший общий делитель:"+ envResult + "\n");
+
+        return envResult;
+    }
+
+    public static void main(String[] arg) {
+        GreatestCommonDivisor.gcd(8733,8733);
     }
 }
