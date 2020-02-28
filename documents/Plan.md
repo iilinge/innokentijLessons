@@ -18,6 +18,8 @@
 * Основы Maven
 * Исключения
 * Stream, lambdas
+
+
 ### Backlog
 ArrayList vs LinkedList,
 Конструкторы,
