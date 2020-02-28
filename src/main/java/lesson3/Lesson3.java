@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Lesson3 {
     public static void main(String[] args) {
-
+k
 
         int[] array = {0, 2, 9, 234, 7};
         for (int k=0 ; k < array.length; k++) {
